@@ -6,7 +6,7 @@
 
 CREATE INDEX studentids ON springboardopt.Student(id);
 */
-CREATE INDEX studentids ON springboardopt.Student(id);
+CREATE UNIQUE INDEX studentids ON springboardopt.Student(id);
 
 USE springboardopt;
 
